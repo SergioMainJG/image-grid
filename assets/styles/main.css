@@ -140,7 +140,7 @@ h2 {
   object-fit: cover;
   scroll-snap-align: center;
 }
-@media (380px > width) {
+@media (480px >= width) {
   .titles-container{
     padding: 0;
     margin: 0;
@@ -168,7 +168,7 @@ h2 {
     width: 100%;
   }
 }
-@media (1280px > width >= 380px) {
+@media (1280px >= width > 480px) {
   .main-content-container {
     display: flex;
     flex-direction: column;
@@ -186,7 +186,7 @@ h2 {
     width: 100%;
   }
 }
-@media (width >= 1280px) {
+@media (width > 1280px) {
   .main-content-container {
     display: flex;
     flex-direction: row;
