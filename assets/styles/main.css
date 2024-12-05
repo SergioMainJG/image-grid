@@ -166,6 +166,7 @@ h2 {
   }
   .images-carousel-container {
     width: 100%;
+    scroll-snap-type: x mandatory;
   }
 }
 @media (1280px >= width > 480px) {
@@ -184,6 +185,7 @@ h2 {
   }
   .images-carousel-container {
     width: 100%;
+    scroll-snap-type: x mandatory;
   }
 }
 @media (width > 1280px) {
